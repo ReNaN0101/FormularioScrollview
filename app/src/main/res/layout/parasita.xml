@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Formulario"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/ed01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:layout_marginTop="10dp"
+        android:hint="Digite o nome..."
+        android:paddingRight="200dp"
+
+        />
+
+    <EditText
+        android:id="@+id/ed02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed01"
+        android:layout_alignLeft="@+id/ed01"
+        android:layout_marginTop="10dp"
+        android:hint="Digite o CPF..."
+        android:paddingRight="213dp" />
+
+    <EditText
+        android:id="@+id/ed03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed02"
+        android:layout_alignLeft="@+id/ed02"
+        android:layout_marginTop="10dp"
+        android:hint="Data de nascimento"
+        android:paddingRight="164dp"
+
+        />
+
+    <EditText
+        android:id="@+id/ed04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed03"
+        android:layout_alignLeft="@+id/ed03"
+
+
+        android:layout_marginTop="10dp"
+        android:hint="Digite o Telefone..."
+        android:paddingRight="180dp" />
+
+    <EditText
+        android:id="@+id/ed05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed04"
+        android:layout_alignLeft="@+id/ed03"
+
+        android:layout_marginTop="10dp"
+        android:hint="Digite o Celular..."
+        android:paddingRight="190dp" />
+
+    <EditText
+        android:id="@+id/ed06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed05"
+        android:layout_alignLeft="@+id/ed03"
+        android:layout_marginTop="10dp"
+        android:hint="Digite o email..."
+        android:paddingRight="210dp" />
+
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed06"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Inserir" />
+
+
+
+</RelativeLayout>
